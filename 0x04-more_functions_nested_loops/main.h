@@ -5,6 +5,7 @@
  * void prototypes (void)
  * int prototypes (int)
  */
-int _isupper(int c);
+int _isupper(int);
+int _isdigit(int);
 
 #endif
