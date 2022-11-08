@@ -1,13 +1,12 @@
 #include "main.h"
 /**
- * _islower - prints the alphabets in lower cas
- * @alpha: number or an alphabet
- * Return: returns 0 if successful or 1 if otherwise
+ * _islower - Short description, single line
+ * @c: contains value to be compared
+ * Return: Always 0.
  */
-
-int  _islower(int alpha)
+int _islower(int c)
 {
-	if (alpha >= 'a' && alpha  <= 'z')
+	if (c > 'a' && c < 'z')
 	{
 		return (1);
 	}
